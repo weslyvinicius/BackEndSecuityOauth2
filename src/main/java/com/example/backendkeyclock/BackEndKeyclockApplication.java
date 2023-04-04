@@ -1,8 +1,8 @@
 package com.example.backendkeyclock;
 
+import org.mycustomer.starter.secutity.annotation.EnableValidationToken;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.validation.secutity.config.EnableValidationToken;
 
 @SpringBootApplication
 @EnableValidationToken
